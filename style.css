@@ -1,22 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
 body{
   -webkit-user-select: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  background: #fcf04e;
   overflow: hidden;
+  background: #fcf04e;
 }
-.btn{
-  padding: 40px 40px;
-  color: #ffffff;
-  background-color: #111111;
-  font-size: 40px;
-  border-radius: 10px;
-  text-decoration: none;
+button{
+  margin: auto;
+  padding: 0;
+  line-height: 1;
+  border: none;
+  font-size: 7em;
+  outline: none;
 }
-.btn:active{
-  background-color: #666666;
+button:active{
+  transform: translateY(7px);
 }

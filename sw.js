@@ -30,10 +30,6 @@ self.__precacheManifest = [
     "revision": "de20efa06b3b9d1e723ea3b7b0459e79"
   },
   {
-    "url": "assets/bell.png",
-    "revision": "94d9ff97f872e7810f97d43d52215608"
-  },
-  {
     "url": "images/icons/icon-1024.png",
     "revision": "910e4ed677825286d6e624c54646b1ed"
   },
