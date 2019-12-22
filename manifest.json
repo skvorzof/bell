@@ -1,0 +1,37 @@
+{
+  "name": "Bell",
+  "short_name": "Bell",
+  "theme_color": "#fcf04e",
+  "background_color": "#d0d0d0",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "index.html",
+  "icons": [
+    {
+      "src": "images/icons/icon-120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-167.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icons/icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}

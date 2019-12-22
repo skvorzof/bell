@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <link rel="shortcut icon" href="images/icons/icon-152.png" type="image/png">
+  <link rel="apple-touch-icon" href="images/icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Bell">
+  <meta name="theme-color" content="#fcf04e"/>
+  <title>Bell</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body ontouchstart="">
+  <a class="btn" href="javascript:bellPlay();">Bell</a>
+  <script>
+    function bellPlay(){
+      const bell = new Audio();
+      bell.src = 'assets/bell.mp3';
+      bell.volume = 1;
+      bell.currentTime = 0;
+      bell.play();
+    }
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js');
+      });
+    }
+  </script>
+</body>
+</html>

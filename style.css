@@ -1,0 +1,22 @@
+body{
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background: #fcf04e;
+  overflow: hidden;
+}
+.btn{
+  padding: 40px 40px;
+  color: #ffffff;
+  background-color: #111111;
+  font-size: 40px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.btn:active{
+  background-color: #666666;
+}
